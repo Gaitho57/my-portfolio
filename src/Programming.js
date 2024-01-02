@@ -7,6 +7,11 @@ export default function Programming() {
     { text: "Python", percentage: 80 },
     { text: "Node JS", percentage: 80 },
     { text: "React JS", percentage: 80 },
+    { text: "Django", percentage: 80 }, // Added Django
+    { text: "Flask", percentage: 80 }, // Added Flask
+    { text: "MySQL", percentage: 80 }, // Added MySQL
+    { text: "MongoDB", percentage: 80 }, // Added MongoDB
+    { text: "C Language", percentage: 80 }, // Added C Language
   ];
 
   return (
@@ -19,7 +24,7 @@ export default function Programming() {
               <div
                 className="progress-new"
                 style={{ width: `${value.percentage}%` }}
-              ></div>
+              />
             </div>
           </div>
         ))}
